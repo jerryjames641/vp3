@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: Arial, sans-serif;
   display: flex;
@@ -6,11 +10,13 @@ body {
   height: 100vh;
   margin: 0;
   background-color: #f4f4f4;
+  overflow-x: hidden; /* Prevent horizontal overflow */
 }
 
 .video-container {
   display: flex;
-width: auto;
+  width: 100%; /* Set width to 100% to avoid auto sizing */
+  max-width: 1200px; /* Ensure it doesn't overflow */
   flex-direction: column;
   align-items: center;
 }
@@ -19,6 +25,7 @@ width: auto;
   display: flex;
   justify-content: center;
   margin-top: 10px;
+  width: 100%;
 }
 
 button {
@@ -39,5 +46,5 @@ button:hover {
   margin-left: 0px;
   background-color: inherit; 
   border-radius: 5px; 
-  padding: 5px; 
+  padding: 5px;
 }
