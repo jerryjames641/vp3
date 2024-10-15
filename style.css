@@ -10,14 +10,14 @@ body {
 
 .video-container {
   display: flex;
-width: 100%;
+width: auto;
   flex-direction: column;
   align-items: center;
 }
 
 .controls {
   display: flex;
-width: 100%; 
+width: auto; 
   justify-content: center;
   margin-top: 10px;
 }
