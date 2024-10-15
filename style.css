@@ -36,7 +36,7 @@ button:hover {
 }
 
 #volumeControl {
-  margin-left: 10px;
+  margin-left: 0px;
   background-color: inherit; 
   border-radius: 5px; 
   padding: 5px; 
