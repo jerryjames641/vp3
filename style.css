@@ -1,7 +1,3 @@
-* {
-  box-sizing: border-box;
-}
-
 body {
   font-family: Arial, sans-serif;
   display: flex;
@@ -14,8 +10,6 @@ body {
 
 .video-container {
   display: flex;
-  width: 100%;
-  max-width: 1200px;
   flex-direction: column;
   align-items: center;
 }
@@ -24,7 +18,6 @@ body {
   display: flex;
   justify-content: center;
   margin-top: 10px;
-  width: 100%;
 }
 
 button {
@@ -42,8 +35,8 @@ button:hover {
 }
 
 #volumeControl {
-  margin-left: 0px;
-  background-color: inherit;
-  border-radius: 5px;
-  padding: 5px;
+  margin-left: 10px;
+  background-color: inherit; 
+  border-radius: 5px; 
+  padding: 5px; 
 }
