@@ -10,13 +10,12 @@ body {
   height: 100vh;
   margin: 0;
   background-color: #f4f4f4;
-  overflow-x: hidden; /* Prevent horizontal overflow */
 }
 
 .video-container {
   display: flex;
-  width: 100%; /* Set width to 100% to avoid auto sizing */
-  max-width: 1200px; /* Ensure it doesn't overflow */
+  width: 100%;
+  max-width: 1200px;
   flex-direction: column;
   align-items: center;
 }
@@ -44,7 +43,7 @@ button:hover {
 
 #volumeControl {
   margin-left: 0px;
-  background-color: inherit; 
-  border-radius: 5px; 
+  background-color: inherit;
+  border-radius: 5px;
   padding: 5px;
 }
