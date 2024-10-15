@@ -17,7 +17,6 @@ width: auto;
 
 .controls {
   display: flex;
-width: auto; 
   justify-content: center;
   margin-top: 10px;
 }
